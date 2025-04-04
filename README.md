@@ -5,7 +5,7 @@ More information [here](https://blossom-tarsier-434.notion.site/Gemini-Code-1c6c
 
 **Important Note:**
 
-This repository is a **fork** of the original project ([link to original repository - please add]). It includes
+This repository is a **fork** of the original project [here](https://github.com/raizamartin/gemini-code). It includes
 modifications to add support for Windows-specific commands.
 
 A [Pull Request](https://github.com/raizamartin/gemini-code/pull/6) has been submitted to the original repository to merge these
