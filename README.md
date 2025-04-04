@@ -1,7 +1,15 @@
-# Gemini Code
+# Gemini Code (Windows Support)
 
 A powerful AI coding assistant for your terminal, powered by Gemini 2.5 Pro with support for other LLM models.
 More information [here](https://blossom-tarsier-434.notion.site/Gemini-Code-1c6c13716ff180db86a0c7f4b2da13ab?pvs=4)
+
+**Important Note:**
+
+This repository is a **fork** of the original project ([link to original repository - please add]). It includes
+modifications to add support for Windows-specific commands.
+
+A [Pull Request](https://github.com/raizamartin/gemini-code/pull/6) has been submitted to the original repository to merge these
+changes.
 
 ## Features
 
@@ -18,22 +26,25 @@ More information [here](https://blossom-tarsier-434.notion.site/Gemini-Code-1c6c
 
 ## Installation
 
-### Method 1: Install from PyPI (Recommended)
+- **If the changes have been merged upstream:** Please refer to the installation instructions in the [original
+  repository](https://github.com/raizamartin/gemini-code.git).
 
-```bash
-# Install directly from PyPI
-pip install gemini-code
-```
+- **If you need Windows support now (before merging):** Follow the installation steps below specific to this fork.
 
-### Method 2: Install from Source
+### Install from Source
 
 ```bash
 # Clone the repository
-git clone https://github.com/raizamartin/gemini-code.git
+git clone https://github.com/munjed-ab/gemini-code.git
+# Navigate to the project
 cd gemini-code
 
-# Install the package
-pip install -e .
+# Install the build tool
+pip install build
+# Build the project
+python -m build
+# Install
+pip install dist/YOUR_BUILD.whl
 ```
 
 ## Setup
